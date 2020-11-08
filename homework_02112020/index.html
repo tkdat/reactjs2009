@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <input id="a" type="number">
+    <input id="b" type="number">
+    <input type="text" id="result" value="" />
+    <button onclick="count()">Result</button>
+    <hr />
+    <div onclick="handleOwnMouseClick(event)" style="height: 100px;width: 100px;background: red;"></div>
+    <hr />
+    <form name="demoForm">
+        <select name="demoSelect" onchange="showData()">
+            <option>Select:</option>
+            <option>Laptop</option>
+            <option>Điện Thoại</option>
+            <option>Tivi</option>
+        </select>
+    </form>
+    <p id="show"></p>
+    <div id="menu">
+        <div id="laptop">
+            <li>Dell</li>
+            <li>Asus</li>
+            <li>Lenovo</li>
+            <li>Mac</li>
+        </div>
+        <div id="dt">
+            <li>Iphone</li>
+            <li>Samsung</li>
+            <li>Oppo</li>
+        </div>
+        <div id="tivi">
+            <li>LG</li>
+            <li>Panasonic</li>
+        </div>
+    </div>
+</body>
+
+</html>
